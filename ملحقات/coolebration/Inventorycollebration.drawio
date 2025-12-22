@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="zcmez9QBCpmGs8iT4UMn">
+    <mxGraphModel dx="1575" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jzBeLpDLyTjvnb401ITX-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=default;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Invortery manegar&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="50" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 23px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 23px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;controller&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 23px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Timer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 23px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-7" edge="1" parent="1" source="jzBeLpDLyTjvnb401ITX-3" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;" target="jzBeLpDLyTjvnb401ITX-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="210" as="sourcePoint" />
+            <mxPoint x="380" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="140" as="sourcePoint" />
+            <mxPoint x="630" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-10" connectable="0" parent="jzBeLpDLyTjvnb401ITX-9" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=38;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.1 إضافة منتج جديد&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-12" edge="1" parent="1" source="jzBeLpDLyTjvnb401ITX-3" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;" target="jzBeLpDLyTjvnb401ITX-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="350" as="sourcePoint" />
+            <mxPoint x="300" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-14" connectable="0" parent="jzBeLpDLyTjvnb401ITX-13" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;طلب إضافة منتج 1.2&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="570" />
+            </Array>
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-16" connectable="0" parent="jzBeLpDLyTjvnb401ITX-15" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=90;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;حفظ المنتج 1.3&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="130" as="sourcePoint" />
+            <mxPoint x="640" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-18" connectable="0" parent="jzBeLpDLyTjvnb401ITX-17" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=38;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;توريد كميات جديدة 1.4&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-20" connectable="0" parent="jzBeLpDLyTjvnb401ITX-19" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;طلب إضافة مخزون 1.5&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="390" as="sourcePoint" />
+            <mxPoint x="365" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-22" connectable="0" parent="jzBeLpDLyTjvnb401ITX-21" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=90;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.6 تحديث إجمالي الكمية&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-23" edge="1" parent="1" source="jzBeLpDLyTjvnb401ITX-6" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;" target="jzBeLpDLyTjvnb401ITX-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-25" connectable="0" parent="jzBeLpDLyTjvnb401ITX-24" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;رسالة تأكيد النجاح 1.7&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-26" edge="1" parent="1" source="jzBeLpDLyTjvnb401ITX-6" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=default;" target="jzBeLpDLyTjvnb401ITX-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="585" as="sourcePoint" />
+            <mxPoint x="70" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-52" edge="1" parent="1" source="jzBeLpDLyTjvnb401ITX-5" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;fontColor=default;" target="jzBeLpDLyTjvnb401ITX-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="350" as="sourcePoint" />
+            <mxPoint x="340" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="390" as="sourcePoint" />
+            <mxPoint x="260" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-56" connectable="0" parent="jzBeLpDLyTjvnb401ITX-55" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=46;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.1 [loop]فحص أحداث المخزون&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-57" connectable="0" parent="jzBeLpDLyTjvnb401ITX-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.037" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-61" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="260" as="sourcePoint" />
+            <mxPoint x="250" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-62" connectable="0" parent="jzBeLpDLyTjvnb401ITX-61" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-34;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.2 [loop] ارسال تقرير بالحالة الحالية للمخزون&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-63" connectable="0" parent="jzBeLpDLyTjvnb401ITX-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.037" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="170" as="sourcePoint" />
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-65" connectable="0" parent="jzBeLpDLyTjvnb401ITX-64" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=38;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;طلب عرض سجل المخزون 3.1&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-66" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-67" connectable="0" parent="jzBeLpDLyTjvnb401ITX-66" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;طلب جلب السجلات 3.2&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-68" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="395" as="sourcePoint" />
+            <mxPoint x="380" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-69" connectable="0" parent="jzBeLpDLyTjvnb401ITX-68" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=90;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;استعلام عن البانات 3.3&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="310" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-73" connectable="0" parent="jzBeLpDLyTjvnb401ITX-72" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=90;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;قائمة البيانات 3.4&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-74" connectable="0" parent="jzBeLpDLyTjvnb401ITX-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.037" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-75" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;labelBackgroundColor=default;fontColor=default;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="379" as="sourcePoint" />
+            <mxPoint x="610" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzBeLpDLyTjvnb401ITX-76" connectable="0" parent="jzBeLpDLyTjvnb401ITX-75" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;labelBackgroundColor=default;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;عرض البيانات 3.5&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
