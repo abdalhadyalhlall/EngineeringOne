@@ -1,0 +1,209 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="Py4kV-pFqx7S_TRdNraI">
+    <mxGraphModel dx="748" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;UI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="60" x="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" value="Employee" vertex="1">
+          <mxGeometry height="80" width="60" x="550" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Controller&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;DB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-7" edge="1" parent="1" source="JIqpBuDmLNjop4BfRmqG-1" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="JIqpBuDmLNjop4BfRmqG-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="330" as="sourcePoint" />
+            <mxPoint x="410" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-8" edge="1" parent="1" source="JIqpBuDmLNjop4BfRmqG-1" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="JIqpBuDmLNjop4BfRmqG-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="140" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-10" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-9" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=60;" value="1.1 اختيار مجموعة الصلاحيات واختيار الدور" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-11" edge="1" parent="1" source="JIqpBuDmLNjop4BfRmqG-5" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="JIqpBuDmLNjop4BfRmqG-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="420" as="sourcePoint" />
+            <mxPoint x="230" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-24" edge="1" parent="1" source="JIqpBuDmLNjop4BfRmqG-5" style="endArrow=none;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JIqpBuDmLNjop4BfRmqG-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="560" as="sourcePoint" />
+            <mxPoint x="350" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="560" as="sourcePoint" />
+            <mxPoint x="520" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-26" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-25" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="حفظ الدور والصلاحيات 1.3" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="600" as="sourcePoint" />
+            <mxPoint x="300" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-28" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-27" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="تم الحفظ 1.4" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="420" as="sourcePoint" />
+            <mxPoint x="180" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-30" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-29" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-41;" value="طلب انشاء دور 1.2" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="540" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-32" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-31" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-41;" value="1.5 نجاح العملية *" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="190" as="sourcePoint" />
+            <mxPoint x="320" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-34" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-33" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=60;" value="اختيار الموظف واسناد الدور 1.6" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-36" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-35" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-41;" value="طلب تحديث الدور 1.7" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="549" as="sourcePoint" />
+            <mxPoint x="520" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-38" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-37" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="ربط معرف الموظف بمعرف الدور 1.8" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="620" as="sourcePoint" />
+            <mxPoint x="300" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-40" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-39" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="تم التحديث 1.9" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-42" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-41" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-59;" value="محاولة الوصول لميزة 2.1" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="400" as="sourcePoint" />
+            <mxPoint x="160" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-44" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-43" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-41;" value="طلب التحقق 2.2" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-45" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="sourcePoint" />
+            <mxPoint x="520" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-46" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-45" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="استعلام عن صلاحيات الموظف 2.3" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-48" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-47" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="صلاحيات الموظف 2.4" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-49" edge="1" parent="1" source="JIqpBuDmLNjop4BfRmqG-5" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="JIqpBuDmLNjop4BfRmqG-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="660" />
+              <mxPoint x="130" y="660" />
+              <mxPoint x="110" y="660" />
+            </Array>
+            <mxPoint x="320" y="660" as="sourcePoint" />
+            <mxPoint x="100" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-50" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-49" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=0;" value="مطابقة الاجراء مع قائمة الصلاحيات[حالة السماح] 2.5" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-51" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" value="" vertex="1">
+          <mxGeometry relative="1" x="0.5256" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-53" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-52" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-60;" value="عرض الواجهة المطلوبة 2.7" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#736CA8;fontColor=#1A1A1A;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.0030769230769" y="540" as="sourcePoint" />
+            <mxPoint x="353.08" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JIqpBuDmLNjop4BfRmqG-56" connectable="0" parent="JIqpBuDmLNjop4BfRmqG-55" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;rotation=-41;" value="السماح بالوصول[حالة السماح] 2.6" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
